@@ -5,3 +5,9 @@
     Target to display image or video here!!
     <br>
     <h3>--Seemant Tripathi</h3></p>
+    <h2>Recently Added</h2>
+<div>
+  <% books.forEach(book => { %>
+    <img height="150" width="100" src="<%= book.coverImagePath %>">
+  <% }) %>
+</div>
